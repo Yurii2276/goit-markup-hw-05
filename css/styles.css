@@ -328,11 +328,11 @@ width: 100%;
 height: 100%;
 background: rgba(46, 47, 66, 0.4);
 
+
 visibility: hidden;
   opacity: 0;
   pointer-events: none;
 
-  
   transition: opacity var(--transition-duration) 
   var(--transition-timing-function),
   visibility var(--transition-duration) 
@@ -385,7 +385,6 @@ transition: background-color var(--transition-duration)
 visibility: visible;
   opacity: 1;
   pointer-events: initial;
-
 
 }
 
