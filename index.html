@@ -34,7 +34,7 @@
             >Web<span class="logo-studio">Studio</span></a
           >
           <ul class="list">
-            <li><a href="./index.html" class="nav-l link">Studio </a></li>
+            <li><a href="./index.html" class="nav-l link current">Studio </a></li>
             <li><a href="./portfolio.html" class="nav-l link">Portfolio</a></li>
             <li><a href="" class="nav-l link">Contacts</a></li>
           </ul>
@@ -65,10 +65,22 @@
           <h1 class="herro-title herro-title-container">
             Effective Solutions for Your Business
           </h1>
-          <button type="button" class="button-herro btn-herro-container">
+          <button  type="button" class="button-herro btn-herro-container" data-modal-open>
             Order Service
           </button>
         </div>
+
+        <!-- Modal window -->
+        <div  class="backdrop" data-modal>
+          <div class="modal">
+            <button  class="modal-btn" type="button" data-modal-close>
+              <svg class="modal-icon" width="24" height="24">
+                <use href="./images/icon.svg#icon-cross"></use>
+              </svg>
+            </button>
+          </div>
+      </div>
+
       </section>
 
       <!-- Principles of work r2-->
@@ -589,5 +601,9 @@
         </div>
       </div>
     </footer>
+
+
+
+    <script src="./js/modal.js"></script>
   </body>
 </html>
