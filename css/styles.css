@@ -203,8 +203,8 @@ ul {
   width: 100%;
   height: 4px;
   border-radius: 2px;
-
-  transition: color var(--transition-duration) var(--transition-timing-function);
+  transition: background-color var(--transition-duration)
+    var(--transition-timing-function);
 }
 
 .nav-l.current::after,
@@ -349,8 +349,9 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  margin-left: auto;
+  position: absolute;
+  top: 20px;
+  right: 20px;
   width: 24px;
   height: 24px;
   border-radius: 50%;
